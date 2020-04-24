@@ -6,6 +6,8 @@ GREEN="32m"    # Success message
 YELLOW="33m"   # Warning message
 BLUE="36m"     # Info message
 
+PETFILENAME=PET2020.txt
+
 WORD=""
 HELP=""
 INTERACTIVE=""
@@ -30,6 +32,10 @@ while [[ $# > 0 ]];do
         ;;
         -h|--help)
         HELP="1"
+        ;;
+        -f｜--file)
+        PETFILENAME="$2"
+        shift
         ;;
         *)
                 # unknown option
@@ -57,7 +63,7 @@ Reading(){
         fi
     fi
 
-    cat 1.txt | while read line
+    cat $PETFILENAME | while read line
     do
         if [[ $WORD != "" ]] && [[ matched -eq 0 ]]; then
             #echo "word is not null"
