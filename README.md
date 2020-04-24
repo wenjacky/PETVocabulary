@@ -2,7 +2,7 @@
 
 
 
-This is a simple 2020 PET vocabulary list. You can download the list at the website https://www.cambridgeenglish.org/. 
+This is a 2020 simplified PET vocabulary list. You can download the original list at the website https://www.cambridgeenglish.org/. 
 
 I make some changes so that my kid can listen this list freely.
 
